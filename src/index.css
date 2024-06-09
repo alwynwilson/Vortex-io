@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+  }
+  
+  .section {
+    padding: 100px 50px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-structure {
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden; /* Ensure overflow is hidden for the marquee effect */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .border-t-2 {
+    border-top-width: 2px;
+  }
+  
+  .border-zinc-700 {
+    border-color: #3f3f3f;
+  }
+  
+  .mt-28 {
+    margin-top: 7rem;
+  }
+  
+  .py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  
+  .px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .text-md {
+    font-size: 1rem;
+  }
+  
+  .font-regular {
+    font-weight: 400;
+  }
+  
+  .tracking-light {
+    letter-spacing: 0.025em;
+  }
+  
+  .leading-none {
+    line-height: 1;
+  }
+  
+  .start {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  
+  .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .border {
+    border-width: 2px;
+  }
+  
+  .border-zinc-400 {
+    border-color: #a1a1a1;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .w-10 {
+    width: 2.5rem;
+  }
+  
+  .h-10 {
+    height: 2.5rem;
+  }
+  
+  .font {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee-image {
+    display: inline-block;
+    width: 200px; /* Adjust the width of images as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust the spacing between images as needed */
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(-100%, 0);
+    }
+  }
+  
