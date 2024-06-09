@@ -27,7 +27,7 @@ function About() {
 
   return (
     <div ref={scrollRef} data-scroll-container>
-      <div style={{ marginTop: '10px' }} data-scroll data-scroll-section data-scroll-speed="-.3" className='p-20 w-full bg-[#FFC96F] rounded-tl-3xl rounded-tr-3xl text-black font-["Neue_Montreal"] mt-20'>
+      <div style={{ marginTop: '10px' }} data-scroll data-scroll-section data-scroll-speed="-.3" className='p-20 w-full bg-[#FFC96F] rounded-tl-3xl rounded-tr-3xl text-black font-["Neue_Montreal"] '>
         <h1 className='font-["Neue_Montreal"] w-[88%] text-[3.5vw] leading-[4vw] tracking-normal'>
           "Transform your vision into vibrant reality with our creative brilliance. At <span style={{fontWeight:"900"}}>VORTEX</span>, we craft compelling campaigns that captivate and convert. Elevate your brand with innovative strategies, stunning visuals, and impactful storytelling. Let’s create magic together!"
         </h1>
